@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E1F9D55141EBC3000A46BB4 /* testbeeldicoon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3E1F9D54141EBC3000A46BB4 /* testbeeldicoon.icns */; };
+		3E519281141E62B30005B0FF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E519280141E62B30005B0FF /* Cocoa.framework */; };
+		3E51928B141E62B30005B0FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E519289141E62B30005B0FF /* InfoPlist.strings */; };
+		3E51928D141E62B30005B0FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E51928C141E62B30005B0FF /* main.m */; };
+		3E519291141E62B30005B0FF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3E51928F141E62B30005B0FF /* Credits.rtf */; };
+		3E519294141E62B30005B0FF /* VSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E519293141E62B30005B0FF /* VSAppDelegate.m */; };
+		3E519297141E62B30005B0FF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E519295141E62B30005B0FF /* MainMenu.xib */; };
+		3E51929E141E65050005B0FF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E51929D141E65050005B0FF /* WebKit.framework */; };
+		3E5F51341427966600388005 /* 35517_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E5F51331427966600388005 /* 35517_1.png */; };
+		3E5F5136142796A800388005 /* Apple Remote.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E5F5135142796A800388005 /* Apple Remote.png */; };
+		3E7649D6146335CD00188F75 /* VSLogInView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7649D4146335CD00188F75 /* VSLogInView.m */; };
+		3E7649D7146335CD00188F75 /* VSLogInView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E7649D5146335CD00188F75 /* VSLogInView.xib */; };
+		3E8AB6F114687E5F00963493 /* VSMainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8AB6F014687E5F00963493 /* VSMainWindow.m */; };
+		3E8AB6F41468898D00963493 /* EnzoOT-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3E8AB6F31468898C00963493 /* EnzoOT-Light.otf */; };
+		3E93356E141E9FD700BC0BC3 /* HIDRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E93356D141E9FD700BC0BC3 /* HIDRemote.m */; };
+		3E933570141EA19A00BC0BC3 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E93356F141EA19A00BC0BC3 /* Carbon.framework */; };
+		3E933572141EA1BC00BC0BC3 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E933571141EA1BC00BC0BC3 /* IOKit.framework */; };
+		3EBE2FE21463430300B4A5D5 /* VSHelpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBE2FE01463430300B4A5D5 /* VSHelpView.m */; };
+		3EBE2FE31463430300B4A5D5 /* VSHelpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EBE2FE11463430300B4A5D5 /* VSHelpView.xib */; };
+		3ED378001463457E0086A054 /* VSStumbleUponWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED377FE1463457E0086A054 /* VSStumbleUponWebView.m */; };
+		3ED378011463457E0086A054 /* VSStumbleUponWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ED377FF1463457E0086A054 /* VSStumbleUponWebView.xib */; };
+		3ED37805146346190086A054 /* VSMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED37803146346190086A054 /* VSMenuView.m */; };
+		3ED37806146346190086A054 /* VSMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ED37804146346190086A054 /* VSMenuView.xib */; };
+		3ED378091463469C0086A054 /* VSMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED378081463469C0086A054 /* VSMainWindowController.m */; };
+		3ED3780B146346D30086A054 /* VSMainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ED3780A146346D20086A054 /* VSMainWindow.xib */; };
+		3ED37816146359C50086A054 /* VSMainContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED37815146359C50086A054 /* VSMainContentView.m */; };
+		3EECE0371469DB86008AAE27 /* videostumblerlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EECE0361469DB86008AAE27 /* videostumblerlogo.png */; };
+		3EECE03A1469DF3C008AAE27 /* video-Stumbler-bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3EECE0391469DF3C008AAE27 /* video-Stumbler-bg.jpg */; };
+		3EECE03D1469E36E008AAE27 /* VSWebViewContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EECE03C1469E36E008AAE27 /* VSWebViewContainerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E1F9D54141EBC3000A46BB4 /* testbeeldicoon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = testbeeldicoon.icns; path = ../testbeeldicoon.icns; sourceTree = "<group>"; };
+		3E51927C141E62B30005B0FF /* Video Stumbler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Video Stumbler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E519280141E62B30005B0FF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3E519283141E62B30005B0FF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3E519284141E62B30005B0FF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3E519285141E62B30005B0FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E519288141E62B30005B0FF /* Video Stumbler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Video Stumbler-Info.plist"; sourceTree = "<group>"; };
+		3E51928A141E62B30005B0FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E51928C141E62B30005B0FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E51928E141E62B30005B0FF /* Video Stumbler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Video Stumbler-Prefix.pch"; sourceTree = "<group>"; };
+		3E519290141E62B30005B0FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3E519292141E62B30005B0FF /* VSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSAppDelegate.h; sourceTree = "<group>"; };
+		3E519293141E62B30005B0FF /* VSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSAppDelegate.m; sourceTree = "<group>"; };
+		3E519296141E62B30005B0FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3E51929D141E65050005B0FF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebKit.framework; sourceTree = "<group>"; };
+		3E5F51331427966600388005 /* 35517_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 35517_1.png; sourceTree = "<group>"; };
+		3E5F5135142796A800388005 /* Apple Remote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Apple Remote.png"; sourceTree = "<group>"; };
+		3E7649D3146335CD00188F75 /* VSLogInView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VSLogInView.h; path = "Video Stumbler/VSLogInView.h"; sourceTree = "<group>"; };
+		3E7649D4146335CD00188F75 /* VSLogInView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VSLogInView.m; path = "Video Stumbler/VSLogInView.m"; sourceTree = "<group>"; };
+		3E7649D5146335CD00188F75 /* VSLogInView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VSLogInView.xib; path = "Video Stumbler/VSLogInView.xib"; sourceTree = "<group>"; };
+		3E8AB6EF14687E5F00963493 /* VSMainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VSMainWindow.h; path = "Video Stumbler/VSMainWindow.h"; sourceTree = "<group>"; };
+		3E8AB6F014687E5F00963493 /* VSMainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VSMainWindow.m; path = "Video Stumbler/VSMainWindow.m"; sourceTree = "<group>"; };
+		3E8AB6F31468898C00963493 /* EnzoOT-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EnzoOT-Light.otf"; path = "Video Stumbler/EnzoOT-Light.otf"; sourceTree = "<group>"; };
+		3E93356C141E9FD700BC0BC3 /* HIDRemote.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = HIDRemote.h; sourceTree = "<group>"; };
+		3E93356D141E9FD700BC0BC3 /* HIDRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDRemote.m; sourceTree = "<group>"; };
+		3E93356F141EA19A00BC0BC3 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Carbon.framework; sourceTree = "<group>"; };
+		3E933571141EA1BC00BC0BC3 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IOKit.framework; sourceTree = "<group>"; };
+		3EBE2FDF1463430300B4A5D5 /* VSHelpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VSHelpView.h; path = "Video Stumbler/VSHelpView.h"; sourceTree = "<group>"; };
+		3EBE2FE01463430300B4A5D5 /* VSHelpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VSHelpView.m; path = "Video Stumbler/VSHelpView.m"; sourceTree = "<group>"; };
+		3EBE2FE11463430300B4A5D5 /* VSHelpView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VSHelpView.xib; path = "Video Stumbler/VSHelpView.xib"; sourceTree = "<group>"; };
+		3ED377FD1463457E0086A054 /* VSStumbleUponWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VSStumbleUponWebView.h; path = "Video Stumbler/VSStumbleUponWebView.h"; sourceTree = "<group>"; };
+		3ED377FE1463457E0086A054 /* VSStumbleUponWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VSStumbleUponWebView.m; path = "Video Stumbler/VSStumbleUponWebView.m"; sourceTree = "<group>"; };
+		3ED377FF1463457E0086A054 /* VSStumbleUponWebView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VSStumbleUponWebView.xib; path = "Video Stumbler/VSStumbleUponWebView.xib"; sourceTree = "<group>"; };
+		3ED37802146346190086A054 /* VSMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VSMenuView.h; path = "Video Stumbler/VSMenuView.h"; sourceTree = "<group>"; };
+		3ED37803146346190086A054 /* VSMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VSMenuView.m; path = "Video Stumbler/VSMenuView.m"; sourceTree = "<group>"; };
+		3ED37804146346190086A054 /* VSMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VSMenuView.xib; path = "Video Stumbler/VSMenuView.xib"; sourceTree = "<group>"; };
+		3ED378071463469C0086A054 /* VSMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VSMainWindowController.h; path = "Video Stumbler/VSMainWindowController.h"; sourceTree = "<group>"; };
+		3ED378081463469C0086A054 /* VSMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VSMainWindowController.m; path = "Video Stumbler/VSMainWindowController.m"; sourceTree = "<group>"; };
+		3ED3780A146346D20086A054 /* VSMainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VSMainWindow.xib; path = "Video Stumbler/VSMainWindow.xib"; sourceTree = "<group>"; };
+		3ED37814146359C50086A054 /* VSMainContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VSMainContentView.h; path = "Video Stumbler/VSMainContentView.h"; sourceTree = "<group>"; };
+		3ED37815146359C50086A054 /* VSMainContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VSMainContentView.m; path = "Video Stumbler/VSMainContentView.m"; sourceTree = "<group>"; };
+		3EECE0361469DB86008AAE27 /* videostumblerlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = videostumblerlogo.png; path = "Video Stumbler/videostumblerlogo.png"; sourceTree = "<group>"; };
+		3EECE0391469DF3C008AAE27 /* video-Stumbler-bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "video-Stumbler-bg.jpg"; path = "Video Stumbler/video-Stumbler-bg.jpg"; sourceTree = "<group>"; };
+		3EECE03B1469E36E008AAE27 /* VSWebViewContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VSWebViewContainerView.h; path = "Video Stumbler/VSWebViewContainerView.h"; sourceTree = "<group>"; };
+		3EECE03C1469E36E008AAE27 /* VSWebViewContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VSWebViewContainerView.m; path = "Video Stumbler/VSWebViewContainerView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E519279141E62B30005B0FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E519281141E62B30005B0FF /* Cocoa.framework in Frameworks */,
+				3E51929E141E65050005B0FF /* WebKit.framework in Frameworks */,
+				3E933570141EA19A00BC0BC3 /* Carbon.framework in Frameworks */,
+				3E933572141EA1BC00BC0BC3 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E519271141E62B30005B0FF = {
+			isa = PBXGroup;
+			children = (
+				3E8AB6F5146889AA00963493 /* Resources */,
+				3EBE2FE41463431800B4A5D5 /* Views */,
+				3E519286141E62B30005B0FF /* Videostumbler (verkeerde map) */,
+				3E51927F141E62B30005B0FF /* Frameworks */,
+				3E51927D141E62B30005B0FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E51927D141E62B30005B0FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E51927C141E62B30005B0FF /* Video Stumbler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E51927F141E62B30005B0FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E51929D141E65050005B0FF /* WebKit.framework */,
+				3E519280141E62B30005B0FF /* Cocoa.framework */,
+				3E519282141E62B30005B0FF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E519282141E62B30005B0FF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E933571141EA1BC00BC0BC3 /* IOKit.framework */,
+				3E93356F141EA19A00BC0BC3 /* Carbon.framework */,
+				3E519283141E62B30005B0FF /* AppKit.framework */,
+				3E519284141E62B30005B0FF /* CoreData.framework */,
+				3E519285141E62B30005B0FF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3E519286141E62B30005B0FF /* Videostumbler (verkeerde map) */ = {
+			isa = PBXGroup;
+			children = (
+				3E519292141E62B30005B0FF /* VSAppDelegate.h */,
+				3E519293141E62B30005B0FF /* VSAppDelegate.m */,
+				3E519295141E62B30005B0FF /* MainMenu.xib */,
+				3E93356A141E9FA800BC0BC3 /* Libraries */,
+				3E519287141E62B30005B0FF /* Supporting Files */,
+			);
+			name = "Videostumbler (verkeerde map)";
+			path = sumac;
+			sourceTree = "<group>";
+		};
+		3E519287141E62B30005B0FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E1F9D54141EBC3000A46BB4 /* testbeeldicoon.icns */,
+				3E5F5135142796A800388005 /* Apple Remote.png */,
+				3E5F51331427966600388005 /* 35517_1.png */,
+				3E519288141E62B30005B0FF /* Video Stumbler-Info.plist */,
+				3E519289141E62B30005B0FF /* InfoPlist.strings */,
+				3E51928C141E62B30005B0FF /* main.m */,
+				3E51928E141E62B30005B0FF /* Video Stumbler-Prefix.pch */,
+				3E51928F141E62B30005B0FF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E8AB6F5146889AA00963493 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3EECE0391469DF3C008AAE27 /* video-Stumbler-bg.jpg */,
+				3EECE0361469DB86008AAE27 /* videostumblerlogo.png */,
+				3E8AB6F31468898C00963493 /* EnzoOT-Light.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3E93356A141E9FA800BC0BC3 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				3E93356C141E9FD700BC0BC3 /* HIDRemote.h */,
+				3E93356D141E9FD700BC0BC3 /* HIDRemote.m */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		3EBE2FE41463431800B4A5D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3ED37814146359C50086A054 /* VSMainContentView.h */,
+				3ED37815146359C50086A054 /* VSMainContentView.m */,
+				3ED378071463469C0086A054 /* VSMainWindowController.h */,
+				3ED378081463469C0086A054 /* VSMainWindowController.m */,
+				3ED3780A146346D20086A054 /* VSMainWindow.xib */,
+				3E8AB6EF14687E5F00963493 /* VSMainWindow.h */,
+				3E8AB6F014687E5F00963493 /* VSMainWindow.m */,
+				3E7649D3146335CD00188F75 /* VSLogInView.h */,
+				3E7649D4146335CD00188F75 /* VSLogInView.m */,
+				3E7649D5146335CD00188F75 /* VSLogInView.xib */,
+				3EBE2FDF1463430300B4A5D5 /* VSHelpView.h */,
+				3EBE2FE01463430300B4A5D5 /* VSHelpView.m */,
+				3EBE2FE11463430300B4A5D5 /* VSHelpView.xib */,
+				3ED377FD1463457E0086A054 /* VSStumbleUponWebView.h */,
+				3ED377FE1463457E0086A054 /* VSStumbleUponWebView.m */,
+				3ED377FF1463457E0086A054 /* VSStumbleUponWebView.xib */,
+				3EECE03B1469E36E008AAE27 /* VSWebViewContainerView.h */,
+				3EECE03C1469E36E008AAE27 /* VSWebViewContainerView.m */,
+				3ED37802146346190086A054 /* VSMenuView.h */,
+				3ED37803146346190086A054 /* VSMenuView.m */,
+				3ED37804146346190086A054 /* VSMenuView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E51927B141E62B30005B0FF /* Video Stumbler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E51929A141E62B30005B0FF /* Build configuration list for PBXNativeTarget "Video Stumbler" */;
+			buildPhases = (
+				3E519278141E62B30005B0FF /* Sources */,
+				3E519279141E62B30005B0FF /* Frameworks */,
+				3E51927A141E62B30005B0FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Video Stumbler";
+			productName = sumac;
+			productReference = 3E51927C141E62B30005B0FF /* Video Stumbler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E519273141E62B30005B0FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Lingewoud B.V.";
+			};
+			buildConfigurationList = 3E519276141E62B30005B0FF /* Build configuration list for PBXProject "Video Stumbler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E519271141E62B30005B0FF;
+			productRefGroup = 3E51927D141E62B30005B0FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E51927B141E62B30005B0FF /* Video Stumbler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E51927A141E62B30005B0FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E51928B141E62B30005B0FF /* InfoPlist.strings in Resources */,
+				3E519291141E62B30005B0FF /* Credits.rtf in Resources */,
+				3E519297141E62B30005B0FF /* MainMenu.xib in Resources */,
+				3E1F9D55141EBC3000A46BB4 /* testbeeldicoon.icns in Resources */,
+				3E5F51341427966600388005 /* 35517_1.png in Resources */,
+				3E5F5136142796A800388005 /* Apple Remote.png in Resources */,
+				3E7649D7146335CD00188F75 /* VSLogInView.xib in Resources */,
+				3EBE2FE31463430300B4A5D5 /* VSHelpView.xib in Resources */,
+				3ED378011463457E0086A054 /* VSStumbleUponWebView.xib in Resources */,
+				3ED37806146346190086A054 /* VSMenuView.xib in Resources */,
+				3ED3780B146346D30086A054 /* VSMainWindow.xib in Resources */,
+				3E8AB6F41468898D00963493 /* EnzoOT-Light.otf in Resources */,
+				3EECE0371469DB86008AAE27 /* videostumblerlogo.png in Resources */,
+				3EECE03A1469DF3C008AAE27 /* video-Stumbler-bg.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E519278141E62B30005B0FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E51928D141E62B30005B0FF /* main.m in Sources */,
+				3E519294141E62B30005B0FF /* VSAppDelegate.m in Sources */,
+				3E93356E141E9FD700BC0BC3 /* HIDRemote.m in Sources */,
+				3E7649D6146335CD00188F75 /* VSLogInView.m in Sources */,
+				3EBE2FE21463430300B4A5D5 /* VSHelpView.m in Sources */,
+				3ED378001463457E0086A054 /* VSStumbleUponWebView.m in Sources */,
+				3ED37805146346190086A054 /* VSMenuView.m in Sources */,
+				3ED378091463469C0086A054 /* VSMainWindowController.m in Sources */,
+				3ED37816146359C50086A054 /* VSMainContentView.m in Sources */,
+				3E8AB6F114687E5F00963493 /* VSMainWindow.m in Sources */,
+				3EECE03D1469E36E008AAE27 /* VSWebViewContainerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E519289141E62B30005B0FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E51928A141E62B30005B0FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3E51928F141E62B30005B0FF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E519290141E62B30005B0FF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3E519295141E62B30005B0FF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E519296141E62B30005B0FF /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E519298141E62B30005B0FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3E519299141E62B30005B0FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3E51929B141E62B30005B0FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sumac/Video Stumbler-Prefix.pch";
+				INFOPLIST_FILE = "sumac/Video Stumbler-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "Video Stumbler";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3E51929C141E62B30005B0FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sumac/Video Stumbler-Prefix.pch";
+				INFOPLIST_FILE = "sumac/Video Stumbler-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "Video Stumbler";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E519276141E62B30005B0FF /* Build configuration list for PBXProject "Video Stumbler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E519298141E62B30005B0FF /* Debug */,
+				3E519299141E62B30005B0FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E51929A141E62B30005B0FF /* Build configuration list for PBXNativeTarget "Video Stumbler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E51929B141E62B30005B0FF /* Debug */,
+				3E51929C141E62B30005B0FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E519273141E62B30005B0FF /* Project object */;
+}
